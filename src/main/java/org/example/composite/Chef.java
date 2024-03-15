@@ -12,6 +12,10 @@ public class Chef implements KitchenStaff{
     // inside there is list of super type Kitchen staff no the Chef type
     private List<KitchenStaff> chefList;
 
+    public List<KitchenStaff> getChefList() {
+        return chefList;
+    }
+
     public Chef(String name, String role) {
         this.name = name;
         this.role = role;
